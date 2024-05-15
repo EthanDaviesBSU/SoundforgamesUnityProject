@@ -76,6 +76,9 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 	</object>
 	<object class="MarkerTrack" id="{ebd8b391-2de3-4814-a3e6-a5fff76620a5}" />
 	<object class="GroupTrack" id="{0f196c46-8773-445c-a48a-a5dfb7674877}">
+		<relationship name="automationTracks">
+			<destination>{3a958318-d2a5-470c-8dce-bfccf63048e3}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{f18d7591-68e4-4adc-8a38-fa7806577685}</destination>
 		</relationship>
@@ -109,13 +112,30 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{98604663-62ac-44ab-83ff-ebb76c0a94ac}" />
+	<object class="AutomationTrack" id="{3a958318-d2a5-470c-8dce-bfccf63048e3}">
+		<relationship name="automator">
+			<destination>{036428aa-09da-426c-bb99-53dfee4a86b1}</destination>
+		</relationship>
+	</object>
 	<object class="SoundScatterer" id="{f18d7591-68e4-4adc-8a38-fa7806577685}">
 		<property name="minimumTimeBetweenSounds">
-			<value>48</value>
+			<value>86</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>48</value>
+			<value>86</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>9.40000057</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>65</value>
+		</property>
+		<property name="pitchRandomization">
+			<value>0.5</value>
+		</property>
+		<relationship name="automators">
+			<destination>{036428aa-09da-426c-bb99-53dfee4a86b1}</destination>
+		</relationship>
 		<relationship name="sound">
 			<destination>{ecb15b33-6a05-4c37-b996-870ccbe71c07}</destination>
 		</relationship>
@@ -145,6 +165,14 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2749b73d-2041-4ef9-9412-08c788eadef8}" />
+	<object class="Automator" id="{036428aa-09da-426c-bb99-53dfee4a86b1}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>spawnRate</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{e1be5640-434a-4ea9-930b-1b24201d4829}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{ecb15b33-6a05-4c37-b996-870ccbe71c07}">
 		<relationship name="sounds">
 			<destination>{c83f6dd1-4558-4110-bc6b-51c851410ac7}</destination>
@@ -211,6 +239,16 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		<property name="amount">
 			<value>54</value>
 		</property>
+	</object>
+	<object class="AutomationCurve" id="{e1be5640-434a-4ea9-930b-1b24201d4829}">
+		<relationship name="parameter">
+			<destination>{95b9b67d-4a1e-45ab-806f-e46ce640bf5a}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{be8af8d0-4e09-4f43-b3fc-eeda8acaaf33}</destination>
+			<destination>{20fec2ac-086e-4ae4-a42d-363fc2d362fa}</destination>
+			<destination>{5cc6e9fe-18bb-45ca-baea-63a22259b03d}</destination>
+		</relationship>
 	</object>
 	<object class="SingleSound" id="{c83f6dd1-4558-4110-bc6b-51c851410ac7}">
 		<relationship name="audioFile">
@@ -451,6 +489,30 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		</property>
 		<property name="depth">
 			<value>100</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{be8af8d0-4e09-4f43-b3fc-eeda8acaaf33}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{20fec2ac-086e-4ae4-a42d-363fc2d362fa}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>500</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5cc6e9fe-18bb-45ca-baea-63a22259b03d}">
+		<property name="position">
+			<value>0.01</value>
+		</property>
+		<property name="value">
+			<value>40</value>
 		</property>
 	</object>
 </objects>

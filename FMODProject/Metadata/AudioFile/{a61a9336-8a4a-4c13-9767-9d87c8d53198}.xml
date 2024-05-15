@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a61a9336-8a4a-4c13-9767-9d87c8d53198}">
 		<property name="assetPath">
-			<value>Geiger 23.wav</value>
+			<value>Geiger/Geiger 23.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

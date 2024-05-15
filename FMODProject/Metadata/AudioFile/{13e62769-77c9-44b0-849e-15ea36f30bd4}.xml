@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{13e62769-77c9-44b0-849e-15ea36f30bd4}">
+		<property name="note">
+			<value>https://freesound.org/people/JustLaz/sounds/616516/</value>
+		</property>
 		<property name="assetPath">
-			<value>Geiger 01.wav</value>
+			<value>Geiger/Geiger 01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
