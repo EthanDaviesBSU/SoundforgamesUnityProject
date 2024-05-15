@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{016b6c1b-aff7-47d5-8f2f-f6eb37d8c8df}">
+		<property name="note">
+			<value>Name
+Designed, Eerie, Insects, Swarm 04 
+
+Library
+Soundly Pro/Designed/Eerie</value>
+		</property>
 		<property name="assetPath">
 			<value>Ant.wav</value>
 		</property>
