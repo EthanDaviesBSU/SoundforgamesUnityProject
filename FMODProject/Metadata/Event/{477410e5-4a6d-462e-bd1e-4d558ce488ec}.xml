@@ -177,7 +177,7 @@ Triggered: On Start</value>
 			<value>1.5</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>6500</value>
+			<value>4000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
 			<value>6500</value>
@@ -186,7 +186,7 @@ Triggered: On Start</value>
 			<value>0</value>
 		</property>
 		<property name="pitchRandomization">
-			<value>0.5</value>
+			<value>1</value>
 		</property>
 		<relationship name="sound">
 			<destination>{76323d1d-87b8-40ed-b1b8-d4ac3499749f}</destination>
