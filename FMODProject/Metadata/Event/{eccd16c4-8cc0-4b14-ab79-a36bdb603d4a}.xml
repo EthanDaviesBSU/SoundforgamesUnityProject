@@ -119,19 +119,22 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 	</object>
 	<object class="SoundScatterer" id="{f18d7591-68e4-4adc-8a38-fa7806577685}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>3</value>
+		</property>
+		<property name="soundStealing">
+			<value>3</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>86</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>86</value>
+			<value>96</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>9.40000057</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>65</value>
+			<value>40</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>0.5</value>
