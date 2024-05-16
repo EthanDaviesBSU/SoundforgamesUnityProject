@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d0e65f73-d32b-4bd1-a1c1-eb35ba1bb0e6}">
+		<property name="note">
+			<value>Name
+Weather, Thunder, Tropical, Distant Thunder, Rumbling Thunder 04
+
+Library
+Soundly Pro/ Weather/ Thunder
+</value>
+		</property>
 		<property name="assetPath">
 			<value>Distant Thunder 02.wav</value>
 		</property>
