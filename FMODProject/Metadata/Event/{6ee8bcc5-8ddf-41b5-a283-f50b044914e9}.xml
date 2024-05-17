@@ -38,6 +38,7 @@ Triggered: When scanning a cactus
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{7c533d07-a8f0-4ffb-9971-77c82df58d1e}</destination>
+			<destination>{db3b7415-9b8e-41eb-8a17-ff5146fd0099}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{5847e705-02d2-46f0-857e-ad5e074f348f}</destination>
@@ -92,17 +93,36 @@ Triggered: When scanning a cactus
 	</object>
 	<object class="MarkerTrack" id="{e2cf2011-4a7c-4e7b-82df-fb26c467e724}" />
 	<object class="GroupTrack" id="{7c533d07-a8f0-4ffb-9971-77c82df58d1e}">
+		<relationship name="modules">
+			<destination>{c90d5b1f-4c14-4f31-a593-d4b86dd113fd}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{582cf277-07ea-4182-9600-99c705bf6e08}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{5847e705-02d2-46f0-857e-ad5e074f348f}" />
+	<object class="GroupTrack" id="{db3b7415-9b8e-41eb-8a17-ff5146fd0099}">
+		<relationship name="modules">
+			<destination>{96dc5ee8-6112-4e21-9b2a-c54114e7dc8b}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{3569a808-bc3a-48eb-b7f9-6e24d98fe205}</destination>
+		</relationship>
+	</object>
+	<object class="Timeline" id="{5847e705-02d2-46f0-857e-ad5e074f348f}">
+		<relationship name="modules">
+			<destination>{c90d5b1f-4c14-4f31-a593-d4b86dd113fd}</destination>
+			<destination>{96dc5ee8-6112-4e21-9b2a-c54114e7dc8b}</destination>
+		</relationship>
+	</object>
 	<object class="ActionSheet" id="{50e9bf36-6726-43cc-a1e3-d355a9991c44}">
 		<relationship name="modules">
 			<destination>{17af1cc0-6f62-4443-97d4-8e39da99a1b1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{815ce455-cfef-4836-b94c-ac16f6d826af}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b4fdc058-ce1f-4134-9c64-d9e896808ece}</destination>
 		</relationship>
@@ -120,6 +140,14 @@ Triggered: When scanning a cactus
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c528f6ae-c65e-4539-a6ee-de47d23b3600}" />
+	<object class="SingleSound" id="{c90d5b1f-4c14-4f31-a593-d4b86dd113fd}">
+		<property name="length">
+			<value>2.9965079365079363</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{eb348980-f64a-41c1-9fa9-453f314c00aa}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{582cf277-07ea-4182-9600-99c705bf6e08}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -129,6 +157,28 @@ Triggered: When scanning a cactus
 		</relationship>
 		<relationship name="panner">
 			<destination>{1f92e8a5-1eb7-4b16-826c-627cc9eb7bbc}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{815ce455-cfef-4836-b94c-ac16f6d826af}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{96dc5ee8-6112-4e21-9b2a-c54114e7dc8b}">
+		<property name="length">
+			<value>2.9965079365079363</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{818bdd3d-b4e8-450b-84d0-805d54d592a8}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{3569a808-bc3a-48eb-b7f9-6e24d98fe205}">
+		<property name="name">
+			<value>Audio 2</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e74a5a3f-f703-4683-8b00-d310df914ba4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4db049dd-44e5-4670-af53-f21125d78ec3}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{815ce455-cfef-4836-b94c-ac16f6d826af}</destination>
@@ -151,6 +201,13 @@ Triggered: When scanning a cactus
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1f92e8a5-1eb7-4b16-826c-627cc9eb7bbc}" />
+	<object class="MixerBusEffectChain" id="{e74a5a3f-f703-4683-8b00-d310df914ba4}">
+		<relationship name="effects">
+			<destination>{7ad3ee9d-3254-4eb4-8cd3-3fc2325a71c6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4db049dd-44e5-4670-af53-f21125d78ec3}" />
 	<object class="MixerBusFader" id="{c3ddc81d-4a97-4c3a-a6be-504705885265}" />
 	<object class="MixerBusFader" id="{f6152db1-33ac-4fef-95ae-d3ba2b60ac40}" />
+	<object class="MixerBusFader" id="{7ad3ee9d-3254-4eb4-8cd3-3fc2325a71c6}" />
 </objects>
