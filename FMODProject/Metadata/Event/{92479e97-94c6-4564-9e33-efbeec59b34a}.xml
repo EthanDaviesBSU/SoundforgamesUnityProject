@@ -27,7 +27,7 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 			<value>Menu</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{660d8cf9-5917-44af-b2f8-ac4ec0c98f0d}</destination>
@@ -116,7 +116,8 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 	</object>
 	<object class="GroupTrack" id="{088a8399-3c70-42c5-9c53-cf7400ca0883}">
 		<relationship name="modules">
-			<destination>{ac7f5e10-bbc6-403e-a842-eb9f36b9b1d4}</destination>
+			<destination>{f1f73809-dc05-4fed-b858-ee4864335627}</destination>
+			<destination>{f4373410-a69a-4ea4-a8dd-0dc8fd21a10c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{12a3a897-8cc6-4928-b48d-b0c431baa4a0}</destination>
@@ -133,7 +134,8 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 			<destination>{2b58071f-3682-4063-90f6-14b1fae409e8}</destination>
 			<destination>{aa1e2a89-e88e-4cd6-a52c-6aaabe5e083c}</destination>
 			<destination>{abadfa42-924f-47ad-b7e4-070ecf5a0080}</destination>
-			<destination>{ac7f5e10-bbc6-403e-a842-eb9f36b9b1d4}</destination>
+			<destination>{f1f73809-dc05-4fed-b858-ee4864335627}</destination>
+			<destination>{f4373410-a69a-4ea4-a8dd-0dc8fd21a10c}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{0d3e9b4b-5ab0-4abf-851f-7bbcfc56ff1f}</destination>
@@ -216,27 +218,40 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 			<destination>{accda771-9c72-4199-8492-478631c3f921}</destination>
 		</relationship>
 	</object>
-	<object class="SoundScatterer" id="{ac7f5e10-bbc6-403e-a842-eb9f36b9b1d4}">
+	<object class="MultiSound" id="{f1f73809-dc05-4fed-b858-ee4864335627}">
 		<property name="start">
 			<value>2</value>
 		</property>
-		<property name="totalSounds">
+		<property name="volume">
+			<value>-11</value>
+		</property>
+		<property name="playlistMode">
 			<value>1</value>
 		</property>
-		<property name="minimumTimeBetweenSounds">
-			<value>1000</value>
+		<relationship name="modulators">
+			<destination>{b8c18f05-390d-49d5-8afc-a36aad7a5b62}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{5425314b-1c7e-4969-919c-56e713ba55b8}</destination>
+			<destination>{e30c6432-7e45-4149-8158-005fbfbc3053}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{f4373410-a69a-4ea4-a8dd-0dc8fd21a10c}">
+		<property name="start">
+			<value>3</value>
 		</property>
-		<property name="minimumScatterDistance">
-			<value>5</value>
+		<property name="volume">
+			<value>-11</value>
 		</property>
-		<property name="maximumScatterDistance">
-			<value>8.19999981</value>
-		</property>
-		<property name="pitchRandomization">
+		<property name="playlistMode">
 			<value>1</value>
 		</property>
-		<relationship name="sound">
-			<destination>{a461d982-8661-4d90-809b-cf3f3019873c}</destination>
+		<relationship name="modulators">
+			<destination>{0f290bd7-9a34-42c8-a266-b7a793017a5f}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{60a5c089-2fd6-41d1-85de-81abab7e7b5e}</destination>
+			<destination>{cdfe6a6c-849e-492c-959a-f2f8006e61b9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{12a3a897-8cc6-4928-b48d-b0c431baa4a0}">
@@ -275,10 +290,40 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8c498a67-5133-4be9-961c-a04adbd85bfb}" />
-	<object class="MultiSound" id="{a461d982-8661-4d90-809b-cf3f3019873c}">
-		<relationship name="sounds">
-			<destination>{931aa9ac-555c-48c8-b249-307cfdbc4c2c}</destination>
-			<destination>{593ee76c-6881-455f-9503-2d677d3b792a}</destination>
+	<object class="RandomizerModulator" id="{b8c18f05-390d-49d5-8afc-a36aad7a5b62}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{5425314b-1c7e-4969-919c-56e713ba55b8}">
+		<relationship name="audioFile">
+			<destination>{db39f9f5-4f93-42c4-9f3b-ac6518183deb}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{e30c6432-7e45-4149-8158-005fbfbc3053}">
+		<relationship name="audioFile">
+			<destination>{26021984-b81c-4de5-9274-c12988f8c5a8}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{0f290bd7-9a34-42c8-a266-b7a793017a5f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{60a5c089-2fd6-41d1-85de-81abab7e7b5e}">
+		<relationship name="audioFile">
+			<destination>{bed2a8f4-52bf-468a-bce4-08b5366770fd}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{cdfe6a6c-849e-492c-959a-f2f8006e61b9}">
+		<relationship name="audioFile">
+			<destination>{4f725b29-eae6-4a30-ab45-9a047dbad1b5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bb002d92-8586-41b3-9b0a-7a974cc2246d}">
@@ -290,21 +335,5 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 	<object class="MixerBusFader" id="{125fd0e0-12f8-440b-b559-3d453307bdd7}" />
 	<object class="MixerBusFader" id="{0b89d8d8-e82d-4dc3-871c-2e88a73b285c}" />
 	<object class="MixerBusFader" id="{ea6beba8-9f2b-483c-b337-bb064084cc00}" />
-	<object class="SingleSound" id="{931aa9ac-555c-48c8-b249-307cfdbc4c2c}">
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{db39f9f5-4f93-42c4-9f3b-ac6518183deb}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{593ee76c-6881-455f-9503-2d677d3b792a}">
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{26021984-b81c-4de5-9274-c12988f8c5a8}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{971b1915-a256-4682-ba66-0f6678b74a03}" />
 </objects>
