@@ -167,10 +167,10 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638515625357981506
+  lastModified: 638515687093410593
   FileSizes:
   - Name: Desktop
-    Value: 799584
+    Value: 6463456
   Exists: 1
 --- !u!114 &-7218288516651920230
 MonoBehaviour:
@@ -726,7 +726,7 @@ MonoBehaviour:
   - {fileID: 4450031680838293598}
   StringsBanks:
   - {fileID: -7218288516651920230}
-  cacheTime: 638515625357981506
+  cacheTime: 638515687093410593
   cacheVersion: 10
 --- !u!114 &525602267344705921
 MonoBehaviour:
