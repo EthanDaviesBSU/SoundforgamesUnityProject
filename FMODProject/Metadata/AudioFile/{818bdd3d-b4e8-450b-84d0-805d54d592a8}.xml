@@ -2,7 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{818bdd3d-b4e8-450b-84d0-805d54d592a8}">
 		<property name="note">
-			<value>Scifi, Computer, Futuristic Technology, Calculations, Telemetry, Complex, Medium, Continuous</value>
+			<value>Name
+Scifi, Computer, Futuristic Technology, Calculations, Telemetry, Complex, Medium, Continuous
+
+Library</value>
 		</property>
 		<property name="assetPath">
 			<value>Companion Scan-002.wav</value>
