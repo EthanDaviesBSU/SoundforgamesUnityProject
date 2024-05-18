@@ -346,6 +346,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>1.3999999999999999</value>
 		</property>
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{3ded8e92-c6cb-4d25-a435-ff9d8e03e917}</destination>
 		</relationship>
@@ -354,9 +357,6 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c5048f98-a163-4d6c-8cac-94286af6b9e3}">
-		<property name="volume">
-			<value>-6.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 5</value>
 		</property>
@@ -377,6 +377,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>1.8439182043075559</value>
 		</property>
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{c196d290-75a1-422b-846d-2ba99535a70a}</destination>
 		</relationship>
@@ -385,9 +388,6 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e2ea194f-36c4-497e-80b7-b8b73f04e454}">
-		<property name="volume">
-			<value>2</value>
-		</property>
 		<property name="name">
 			<value>Audio 6</value>
 		</property>
