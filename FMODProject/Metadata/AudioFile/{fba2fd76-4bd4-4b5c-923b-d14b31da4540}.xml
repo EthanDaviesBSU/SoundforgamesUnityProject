@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{fba2fd76-4bd4-4b5c-923b-d14b31da4540}">
+		<property name="note">
+			<value>Name
+Lasers, Gun, Laser, Small
+
+Library
+Soundly Pro/ Lasers/ Gun</value>
+		</property>
 		<property name="assetPath">
 			<value>Laser Shot Take 2-001.wav</value>
 		</property>

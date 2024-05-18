@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{db39f9f5-4f93-42c4-9f3b-ac6518183deb}">
+		<property name="note">
+			<value>Name
+Scifi, Computer, Futuristic Technology, Bright Confirm Tones, Simple
+
+Library
+Soundly Pro/ Scifi/ Computer</value>
+		</property>
 		<property name="assetPath">
 			<value>Menu Button Enter-001.wav</value>
 		</property>
