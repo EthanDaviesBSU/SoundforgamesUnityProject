@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001C88F220E88 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001B6626CF328 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -25,6 +25,171 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] SoundI::release                          : Wind-Most Calm Wind (000001B5DECCA908)
+[LOG] SoundI::release                          :     Wind-Most Calm Wind (000001B662C48D48)
+[LOG] SoundI::release                          :     Wind-Most Calm Wind (000001B38B064D28)
+[LOG] SoundI::release                          : Wind-Calm Wind (000001B5DECCA758)
+[LOG] SoundI::release                          :     Wind-Calm Wind (000001B662C47008)
+[LOG] SoundI::release                          :     Wind-Calm Wind (000001B38B064B78)
+[LOG] SoundI::release                          :  (000001B6627D0168)
+[LOG] SoundI::release                          :     Laser Shot Take 2-001 (000001B7B5644418)
+[LOG] SoundI::release                          :  (000001B38BD55478)
+[LOG] SoundI::release                          :     Menu Button Enter-001 (000001B662C49088)
+[LOG] SoundI::release                          :  (000001B7BC52D368)
+[LOG] SoundI::release                          :     Menu Button Enter-002 (000001B7B5649BD8)
+[LOG] SoundI::release                          :  (000001B38BD558C8)
+[LOG] SoundI::release                          :     Menu Button Press Exit-001 (000001B7B564F058)
+[LOG] SoundI::release                          :  (000001B7A4FE3658)
+[LOG] SoundI::release                          :     Menu Button Press Exit-002 (000001B7B5644A98)
+[LOG] SoundI::release                          :  (000001B7BC52D1F8)
+[LOG] SoundI::release                          :     Menu StartUp-002 (000001B7B564DE78)
+[LOG] SoundI::release                          :  (000001B738A6FF98)
+[LOG] SoundI::release                          :     Menu Exit-002 (000001B7B564E1B8)
+[LOG] SoundI::release                          :  (000001B38BD55BA8)
+[LOG] SoundI::release                          :     Menu Exit-001 (000001B662C4B788)
+[LOG] SoundI::release                          :  (000001B738A6FCB8)
+[LOG] SoundI::release                          :     Menu StartUp-001 (000001B7B564A8D8)
+[LOG] SoundI::release                          :  (000001B7A4FE3C18)
+[LOG] SoundI::release                          :     Ant (000001B7B5645118)
+[LOG] SoundI::release                          :  (000001B6627CFD18)
+[LOG] SoundI::release                          :     Geiger 01 (000001B7B56462F8)
+[LOG] SoundI::release                          :  (000001B6627CFFF8)
+[LOG] SoundI::release                          :     Geiger 02 (000001B7B5643D98)
+[LOG] SoundI::release                          :  (000001B6627D0A08)
+[LOG] SoundI::release                          :     Geiger 03 (000001B7B56493B8)
+[LOG] SoundI::release                          :  (000001B7A4FE3208)
+[LOG] SoundI::release                          :     Geiger 04 (000001B7B5647198)
+[LOG] SoundI::release                          :  (000001B7A4FE34E8)
+[LOG] SoundI::release                          :     Geiger 05 (000001B7B5649078)
+[LOG] SoundI::release                          :  (000001B6209C1F98)
+[LOG] SoundI::release                          :     Geiger 06 (000001B7B564EEB8)
+[LOG] SoundI::release                          :  (000001B7BC52DD78)
+[LOG] SoundI::release                          :     Geiger 07 (000001B7B564DCD8)
+[LOG] SoundI::release                          :  (000001B6627D05B8)
+[LOG] SoundI::release                          :     Geiger 08 (000001B7B5648038)
+[LOG] SoundI::release                          :  (000001B7A4FE3378)
+[LOG] SoundI::release                          :     Geiger 09 (000001B7B5644758)
+[LOG] SoundI::release                          :  (000001B7BB4B64E8)
+[LOG] SoundI::release                          :     Geiger 10 (000001B7B5648378)
+[LOG] SoundI::release                          :  (000001B6627D02D8)
+[LOG] SoundI::release                          :     Geiger 11 (000001B7B5648518)
+[LOG] SoundI::release                          :  (000001B7BB4B6098)
+[LOG] SoundI::release                          :     Geiger 12 (000001B7B5644DD8)
+[LOG] SoundI::release                          :  (000001B6627D0728)
+[LOG] SoundI::release                          :     Geiger 13 (000001B7B5644C38)
+[LOG] SoundI::release                          :  (000001B6209C2108)
+[LOG] SoundI::release                          :     Geiger 14 (000001B7B564E358)
+[LOG] SoundI::release                          :  (000001B6209C23E8)
+[LOG] SoundI::release                          :     Geiger 15 (000001B7B564ADB8)
+[LOG] SoundI::release                          :  (000001B7BB4B5F28)
+[LOG] SoundI::release                          :     Geiger 16 (000001B7B5649218)
+[LOG] SoundI::release                          :  (000001B7BC52D648)
+[LOG] SoundI::release                          :     Geiger 17 (000001B7B5648858)
+[LOG] SoundI::release                          :  (000001B6209C1CB8)
+[LOG] SoundI::release                          :     Geiger 18 (000001B7B564CAF8)
+[LOG] SoundI::release                          :  (000001B7BB4B6938)
+[LOG] SoundI::release                          :     Geiger 19 (000001B7B5646978)
+[LOG] SoundI::release                          :  (000001B6209C26C8)
+[LOG] SoundI::release                          :     Geiger 20 (000001B7B564FEF8)
+[LOG] SoundI::release                          :  (000001B7BC52D7B8)
+[LOG] SoundI::release                          :     Geiger 21 (000001B7B5649898)
+[LOG] SoundI::release                          :  (000001B7BC52D928)
+[LOG] SoundI::release                          :     Geiger 22 (000001B7B564BF98)
+[LOG] SoundI::release                          :  (000001B6627D0448)
+[LOG] SoundI::release                          :     Geiger 23 (000001B7B5646638)
+[LOG] SoundI::release                          :  (000001B7BB4B5C48)
+[LOG] SoundI::release                          :     Geiger 24 (000001B7B5648B98)
+[LOG] SoundI::release                          :  (000001B7BC52DA98)
+[LOG] SoundI::release                          :     Geiger 25 (000001B7B5649A38)
+[LOG] SoundI::release                          :  (000001B738A6F9D8)
+[LOG] SoundI::release                          :     Geiger 26 (000001B7B564E698)
+[LOG] SoundI::release                          :  (000001B738A6F6F8)
+[LOG] SoundI::release                          :     Geiger 27 (000001B7B564EB78)
+[LOG] SoundI::release                          :  (000001B738A6FE28)
+[LOG] SoundI::release                          :     Geiger 28 (000001B7B564C478)
+[LOG] SoundI::release                          :  (000001B7B5C48608)
+[LOG] SoundI::release                          :     Geiger 29 (000001B7B56503D8)
+[LOG] SoundI::release                          :  (000001B738A6F868)
+[LOG] SoundI::release                          :     Geiger 30 (000001B7B564B298)
+[LOG] SoundI::release                          :  (000001B7A4FE3098)
+[LOG] SoundI::release                          :     Geiger 31 (000001B7B5643098)
+[LOG] SoundI::release                          :  (000001B7BB4B6378)
+[LOG] SoundI::release                          :     Geiger 32 (000001B7B5647818)
+[LOG] SoundI::release                          :  (000001B6209C19D8)
+[LOG] SoundI::release                          :     Geiger 33 (000001B7B564C958)
+[LOG] SoundI::release                          :  (000001B7BC52DC08)
+[LOG] SoundI::release                          :     Geiger 34 (000001B7B564C618)
+[LOG] SoundI::release                          :  (000001B7A4FE3D88)
+[LOG] SoundI::release                          :     Geiger 35 (000001B7B5645AD8)
+[LOG] SoundI::release                          :  (000001B7A4FE3AA8)
+[LOG] SoundI::release                          :     Geiger 36 (000001B7B5651C38)
+[LOG] SoundI::release                          :  (000001B7BB4B5DB8)
+[LOG] SoundI::release                          :     Geiger 37 (000001B7B5649558)
+[LOG] SoundI::release                          :  (000001B7BC52D4D8)
+[LOG] SoundI::release                          :     Geiger 38 (000001B7B5649F18)
+[LOG] SoundI::release                          :  (000001B7A4FE3938)
+[LOG] SoundI::release                          :     Geiger 39 (000001B7B5643F38)
+[LOG] SoundI::release                          :  (000001B7BB4B6208)
+[LOG] SoundI::release                          :     Geiger 40 (000001B7B5643BF8)
+[LOG] SoundI::release                          :  (000001B6209C1E28)
+[LOG] SoundI::release                          :     Geiger 41 (000001B7B564DB38)
+[LOG] SoundI::release                          :  (000001B738A6F2A8)
+[LOG] SoundI::release                          :     Geiger 42 (000001B7B564E838)
+[LOG] SoundI::release                          :  (000001B6627D0898)
+[LOG] SoundI::release                          :     Geiger 43 (000001B7B5645FB8)
+[LOG] SoundI::release                          :  (000001B7BC52D088)
+[LOG] SoundI::release                          :     Geiger 44 (000001B7B5649D78)
+[LOG] SoundI::release                          :  (000001B738A6F418)
+[LOG] SoundI::release                          :     Geiger 45 (000001B7B564A738)
+[LOG] SoundI::release                          :  (000001B7BB4B6658)
+[LOG] SoundI::release                          :     Geiger 46 (000001B7B5646B18)
+[LOG] SoundI::release                          :  (000001B7A4FE37C8)
+[LOG] SoundI::release                          :     Geiger 47 (000001B7B5651278)
+[LOG] SoundI::release                          :  (000001B738A6F588)
+[LOG] SoundI::release                          :     Geiger 48 (000001B7B564B778)
+[LOG] SoundI::release                          :  (000001B6209C2558)
+[LOG] SoundI::release                          :     Geiger 49 (000001B7B564C7B8)
+[LOG] SoundI::release                          :  (000001B6209C1B48)
+[LOG] SoundI::release                          :     Geiger 50 (000001B7B564FA18)
+[LOG] SoundI::release                          :  (000001B6209C2278)
+[LOG] SoundI::release                          :     Geiger 51 (000001B7B564A258)
+[LOG] SoundI::release                          :  (000001B38BD555E8)
+[LOG] SoundI::release                          :     Geiger 52 (000001B662C4D4C8)
+[LOG] SoundI::release                          :  (000001B738A6FB48)
+[LOG] SoundI::release                          :     Geiger 53 (000001B7B564B438)
+[LOG] SoundI::release                          :  (000001B6627CFE88)
+[LOG] SoundI::release                          :     Companion Scan-001 (000001B7B5646E58)
+[LOG] SoundI::release                          :  (000001B7BB4B67C8)
+[LOG] SoundI::release                          :     Companion Scan-002 (000001B7B5647B58)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -32,3 +197,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
