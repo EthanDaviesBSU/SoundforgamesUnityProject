@@ -205,6 +205,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>2.9999999999999991</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{a3b7899e-1eb4-4a6a-a869-c94c9e35b0db}</destination>
 		</relationship>
@@ -256,6 +259,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>0.96000000000000008</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{493b48a5-ee0b-4546-a320-c3a72c811856}</destination>
 		</relationship>
@@ -286,6 +292,9 @@ Triggered: On Start</value>
 		</property>
 		<property name="length">
 			<value>1.2</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{19e8b724-31cb-4b23-b964-5822f0a87636}</destination>
@@ -318,6 +327,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>2.1000000000000001</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{96d3a09c-ef28-4ebb-98ba-840fb379acdf}</destination>
 		</relationship>
@@ -348,6 +360,9 @@ Triggered: On Start</value>
 		</property>
 		<property name="volume">
 			<value>-6.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{3ded8e92-c6cb-4d25-a435-ff9d8e03e917}</destination>
