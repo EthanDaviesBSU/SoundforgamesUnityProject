@@ -74,6 +74,12 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		<property name="priority">
 			<value>3</value>
 		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>500</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{47f993aa-97a8-47f5-adbc-da616d86b97a}" />
 	<object class="GroupTrack" id="{56b15f42-eed0-4903-bd9f-7b8eb0ed2cd5}">
@@ -288,7 +294,7 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 			<value>Gain</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>6</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,-80.000000)(1.000000,24.000000)}</value>
