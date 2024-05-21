@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{80841f26-b293-4eff-a0a8-b04e05470947}">
+		<property name="note">
+			<value>Name
+</value>
+		</property>
 		<property name="assetPath">
 			<value>Rain-006.wav</value>
 		</property>
