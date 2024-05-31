@@ -334,6 +334,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>10</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{c9770422-e6cf-4ad3-826c-f2c84c5aff91}</destination>
 		</relationship>
@@ -358,6 +361,9 @@ Triggered: On Start</value>
 		</property>
 		<property name="length">
 			<value>10</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{67d64887-f17d-45ad-a8a4-b8a66805f2a9}</destination>
@@ -384,6 +390,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>10</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{219d7253-d419-4709-ad50-961f9f6b8511}</destination>
 		</relationship>
@@ -409,6 +418,9 @@ Triggered: On Start</value>
 		<property name="length">
 			<value>10</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6d1528f2-7af8-4b48-8bd6-af01bae76b5f}</destination>
 		</relationship>
@@ -433,6 +445,9 @@ Triggered: On Start</value>
 		</property>
 		<property name="length">
 			<value>10</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{4a24f7ba-7911-4330-8cd6-6dc3514a833e}</destination>
