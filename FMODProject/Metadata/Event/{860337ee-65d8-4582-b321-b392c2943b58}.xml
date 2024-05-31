@@ -226,8 +226,11 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusPanner" id="{bb2c0269-3475-4d7f-b2c4-e6b1e6098308}" />
 	<object class="EventSound" id="{bf579a9b-af11-4743-892b-f819f7f316dc}">
+		<property name="start">
+			<value>10</value>
+		</property>
 		<property name="length">
-			<value>200</value>
+			<value>10</value>
 		</property>
 		<relationship name="event">
 			<destination>{e3f3a2c7-32ae-4f4d-87f3-e0934c553b77}</destination>

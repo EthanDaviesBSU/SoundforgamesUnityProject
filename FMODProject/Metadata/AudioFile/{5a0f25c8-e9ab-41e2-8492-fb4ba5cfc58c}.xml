@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5a0f25c8-e9ab-41e2-8492-fb4ba5cfc58c}">
+		<property name="note">
+			<value>Name
+Designed, Synthetic, Synthesizer, Retro Scifi, Vocalizing, Phrases, Short
+
+Library
+Soundly Pro/ Designed/ Synthetic</value>
+		</property>
+		<property name="assetPath">
+			<value>Companion ChitChat-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0280045351473923</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>
