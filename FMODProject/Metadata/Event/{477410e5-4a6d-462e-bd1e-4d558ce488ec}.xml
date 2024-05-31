@@ -247,6 +247,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8d16a035-a456-46a7-810f-836863543fd3}">
+		<property name="volume">
+			<value>-10.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -324,6 +327,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{369efaa6-0475-4ad6-bd39-ba55a7a71759}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -378,6 +384,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e902fac5-bb6e-4767-af90-d221d8625f49}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -429,6 +438,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{87d7b8d5-11aa-4a12-a43c-a2c363b3171b}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<property name="name">
 			<value>Audio 4</value>
 		</property>
@@ -480,6 +492,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c5048f98-a163-4d6c-8cac-94286af6b9e3}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 5</value>
 		</property>
@@ -531,6 +546,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e2ea194f-36c4-497e-80b7-b8b73f04e454}">
+		<property name="volume">
+			<value>-13</value>
+		</property>
 		<property name="name">
 			<value>Audio 6</value>
 		</property>
