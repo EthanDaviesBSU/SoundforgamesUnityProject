@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aafc08e8-d0e0-4c5f-b5e0-27d9b9d55eb8}">
+		<property name="note">
+			<value>Name
+Dirt, Sand, Impact, Sharp, Rice, Soft Surface, Pour, Particles, Dust, Powder, Detailed 02
+
+Library
+Soundly Pro/ Dirt &amp; Sand/ Impact</value>
+		</property>
+		<property name="assetPath">
+			<value>Projectiles Sand-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.6460090702947846</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>
