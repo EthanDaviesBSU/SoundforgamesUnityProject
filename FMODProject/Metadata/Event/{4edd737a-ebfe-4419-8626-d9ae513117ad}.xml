@@ -89,12 +89,22 @@ Triggered: When switching tool</value>
 	</object>
 	<object class="MarkerTrack" id="{874fdb61-c583-4786-9daa-4708707aca89}" />
 	<object class="GroupTrack" id="{3825aff5-a423-467b-a95c-6099e1ad8504}">
+		<relationship name="modules">
+			<destination>{ee291fe5-7dc2-4251-9d30-92865b32691c}</destination>
+			<destination>{ff410c8d-5b68-4e60-9994-8d0ea16d1b1b}</destination>
+			<destination>{04621742-fe6c-4090-98b7-b9435a3a11de}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e1ec628b-5854-4734-a9c8-cafced72b5e6}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{022d1b40-f18b-4d17-be8c-5ddb8f7d4451}" />
 	<object class="ParameterProxy" id="{7b03bc9c-000f-42e9-a5ee-3dda16145ab7}">
+		<relationship name="modules">
+			<destination>{ee291fe5-7dc2-4251-9d30-92865b32691c}</destination>
+			<destination>{ff410c8d-5b68-4e60-9994-8d0ea16d1b1b}</destination>
+			<destination>{04621742-fe6c-4090-98b7-b9435a3a11de}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{84baf3e8-4b51-426f-b92e-31587f857f63}</destination>
 		</relationship>
@@ -122,6 +132,27 @@ Triggered: When switching tool</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{39321674-55fb-4758-8e66-bc869caf3583}" />
+	<object class="SingleSound" id="{ee291fe5-7dc2-4251-9d30-92865b32691c}">
+		<relationship name="audioFile">
+			<destination>{8fffa47c-311c-4d01-b1ce-3493bde79644}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ff410c8d-5b68-4e60-9994-8d0ea16d1b1b}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{699e5dc2-9ca6-4ac8-9c97-7a03b043cee5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{04621742-fe6c-4090-98b7-b9435a3a11de}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f4258e03-d25d-49e4-be08-300147dafe95}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{e1ec628b-5854-4734-a9c8-cafced72b5e6}">
 		<property name="name">
 			<value>Audio 1</value>

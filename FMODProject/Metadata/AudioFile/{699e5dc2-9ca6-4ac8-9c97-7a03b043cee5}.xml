@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{699e5dc2-9ca6-4ac8-9c97-7a03b043cee5}">
+		<property name="note">
+			<value>Name
+Scifi, Weapon, Reload, 01
+
+Library
+Soundly Pro/ Scifi/ Weapon</value>
+		</property>
 		<property name="assetPath">
 			<value>Companion SwitchTool - Scanner.wav</value>
 		</property>
