@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b3d2b021-11be-4724-8e0d-eb132d209e2e}">
+		<property name="note">
+			<value>Name
+Metal, Impact, Soft Hits On Metal Pipe
+
+Library
+Soundly Pro/ Metal/ Impact
+</value>
+		</property>
 		<property name="assetPath">
 			<value>Projectiles Metal-003.wav</value>
 		</property>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{db545924-4099-4cb0-924a-ccc91ac28771}">
+		<property name="note">
+			<value>Name
+Gore, Flesh, Drop, Impact, Hit, Short, Bloody, Wet 12
+
+Library
+Soundly Pro/ Gore/ Flesh</value>
+		</property>
 		<property name="assetPath">
 			<value>Projectiles Enemy-007.wav</value>
 		</property>
