@@ -56,8 +56,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	<object class="MasterTrack" id="{044fa92a-c8fc-463d-9b4c-51d8effca59e}">
 		<relationship name="modules">
 			<destination>{6ade9326-33b1-486e-8220-c460f3dc3fbf}</destination>
-			<destination>{69c8fe04-54b8-4b35-a7b2-424f06676e5f}</destination>
-			<destination>{7b31990f-a6a0-4302-ad30-d0115b4fcca7}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{33318255-fc2b-4826-bf4c-176f0eef34b0}</destination>
@@ -92,8 +90,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	<object class="GroupTrack" id="{c9c3f15b-ba46-4ddc-a6f2-cf9ba493eaf9}">
 		<relationship name="modules">
 			<destination>{86c6566a-78f2-4617-ba39-e9d4ea3d45a9}</destination>
-			<destination>{7afd352c-232e-4649-bb2c-b37280d0c1af}</destination>
-			<destination>{e622d0cd-539f-4ad7-9657-d8e71b392928}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d31cb94d-42c7-41ea-99e7-968e0b50272b}</destination>
@@ -102,8 +98,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	<object class="GroupTrack" id="{dfa6e22b-7d1d-4cff-8275-dd1da8731848}">
 		<relationship name="modules">
 			<destination>{35bd66da-8c14-466c-98fa-b1a534803708}</destination>
-			<destination>{ca135205-643f-4462-9356-b8f8b09988d4}</destination>
-			<destination>{9520b27b-cfa2-4c30-a67a-c0d9b962de0f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fe7381c3-e9d1-4509-918e-a0ac5f10b684}</destination>
@@ -113,9 +107,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		<relationship name="modules">
 			<destination>{86c6566a-78f2-4617-ba39-e9d4ea3d45a9}</destination>
 			<destination>{35bd66da-8c14-466c-98fa-b1a534803708}</destination>
-		</relationship>
-		<relationship name="markers">
-			<destination>{ae01eb61-17fa-480f-937d-9e948169934e}</destination>
 		</relationship>
 	</object>
 	<object class="ActionSheet" id="{6f52dc9d-5e59-4f96-839e-8776c287bc39}">
@@ -135,19 +126,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{6ade9326-33b1-486e-8220-c460f3dc3fbf}" />
-	<object class="TransitionSourceSound" id="{69c8fe04-54b8-4b35-a7b2-424f06676e5f}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{7b31990f-a6a0-4302-ad30-d0115b4fcca7}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{5a2cb667-da06-404b-8ec4-64e068d99a85}">
 		<relationship name="effects">
 			<destination>{e94fc261-0cd7-4423-af36-d21ef0903f44}</destination>
@@ -156,25 +134,18 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	<object class="MixerBusPanner" id="{4803abf2-44ec-4f4f-a32c-6b9e00f9d96e}" />
 	<object class="SingleSound" id="{86c6566a-78f2-4617-ba39-e9d4ea3d45a9}">
 		<property name="length">
-			<value>7.5</value>
+			<value>4</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{6bf68210-aa58-43e7-9fd5-f1cca70e904a}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{f0b88557-3356-4c6a-9755-02f5038b4302}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{7afd352c-232e-4649-bb2c-b37280d0c1af}">
-		<relationship name="fadeOutCurve">
-			<destination>{684e918d-207c-444f-9e8f-d6780b6984a4}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{e622d0cd-539f-4ad7-9657-d8e71b392928}">
-		<relationship name="fadeInCurve">
-			<destination>{44272ee6-99b8-4e01-8ac0-d7c93daced61}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{d31cb94d-42c7-41ea-99e7-968e0b50272b}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -191,28 +162,18 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	</object>
 	<object class="SingleSound" id="{35bd66da-8c14-466c-98fa-b1a534803708}">
 		<property name="length">
-			<value>7.5</value>
+			<value>4</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{9e093d0f-4013-4d35-aa1a-d838d33e7506}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{98b80bfa-fd0c-410a-a512-6172c02b95a9}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{ca135205-643f-4462-9356-b8f8b09988d4}">
-		<property name="length">
-			<value>0.80000000000000004</value>
-		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{72dc8d07-85bb-4d52-9036-25aac87c7b6d}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{9520b27b-cfa2-4c30-a67a-c0d9b962de0f}">
-		<relationship name="fadeInCurve">
-			<destination>{45a8ed6a-0d2b-458e-af52-f310873aadf6}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{fe7381c3-e9d1-4509-918e-a0ac5f10b684}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -227,23 +188,6 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 			<destination>{33318255-fc2b-4826-bf4c-176f0eef34b0}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{ae01eb61-17fa-480f-937d-9e948169934e}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>7</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{cdcdd685-2392-478b-a7c9-4126a73710d5}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{d9077a0d-d7bf-49a3-87d7-68a2084afecf}</destination>
-		</relationship>
-		<relationship name="transitionTimeline">
-			<destination>{e230fa94-343d-4ca1-ab90-f3e7f6a35961}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{15625ecb-8ca7-4fe5-9d51-379999665358}">
 		<relationship name="effects">
 			<destination>{22f9dbe2-1f12-4ee6-938e-e38d04228b2e}</destination>
@@ -255,26 +199,12 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e94fc261-0cd7-4423-af36-d21ef0903f44}" />
-	<object class="TransitionSourceFadeOutCurve" id="{684e918d-207c-444f-9e8f-d6780b6984a4}">
+	<object class="FadeCurve" id="{6bf68210-aa58-43e7-9fd5-f1cca70e904a}">
 		<relationship name="startPoint">
-			<destination>{3fe5877b-dc1e-4fc5-830e-46039e956217}</destination>
+			<destination>{858e1be2-89f2-46e8-8e7f-96e806c434f0}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{33983de8-27fe-4e6c-afac-58572d14fec1}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{e622d0cd-539f-4ad7-9657-d8e71b392928}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationFadeInCurve" id="{44272ee6-99b8-4e01-8ac0-d7c93daced61}">
-		<relationship name="startPoint">
-			<destination>{87ccc54c-aead-48bc-b46b-94b35b4f4298}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{5b6fb57a-741a-4b53-ac1e-c9a58de991e5}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{7afd352c-232e-4649-bb2c-b37280d0c1af}</destination>
+			<destination>{242e335b-464c-49b6-b98c-bdcf24ec662a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4e58694f-7796-43f2-9c9f-e35ceff69dc4}">
@@ -283,26 +213,12 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{19a8c941-f171-4590-8eb5-4129a8ccd851}" />
-	<object class="TransitionSourceFadeOutCurve" id="{72dc8d07-85bb-4d52-9036-25aac87c7b6d}">
+	<object class="FadeCurve" id="{9e093d0f-4013-4d35-aa1a-d838d33e7506}">
 		<relationship name="startPoint">
-			<destination>{f5454c4b-8e7a-4515-977a-a270423bcf23}</destination>
+			<destination>{2a26ffa8-1acb-4a5b-b4f0-c7cc978f3006}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{f95fd62b-594c-48d7-9380-40db4a4a11e9}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{9520b27b-cfa2-4c30-a67a-c0d9b962de0f}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationFadeInCurve" id="{45a8ed6a-0d2b-458e-af52-f310873aadf6}">
-		<relationship name="startPoint">
-			<destination>{fef81323-7066-4343-80ee-546263e974a2}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{e0c6ff16-f998-4016-8d0e-9d265655cfbe}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{ca135205-643f-4462-9356-b8f8b09988d4}</destination>
+			<destination>{5f8d8ac1-af23-4952-8683-1ec8552d42c7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{12b9fce1-533e-484b-b560-027de751a44e}">
@@ -311,20 +227,10 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ee9e5ec-f756-4081-85c9-a12ec1c632ff}" />
-	<object class="TransitionTimeline" id="{e230fa94-343d-4ca1-ab90-f3e7f6a35961}">
-		<relationship name="modules">
-			<destination>{7afd352c-232e-4649-bb2c-b37280d0c1af}</destination>
-			<destination>{e622d0cd-539f-4ad7-9657-d8e71b392928}</destination>
-			<destination>{ca135205-643f-4462-9356-b8f8b09988d4}</destination>
-			<destination>{9520b27b-cfa2-4c30-a67a-c0d9b962de0f}</destination>
-			<destination>{69c8fe04-54b8-4b35-a7b2-424f06676e5f}</destination>
-			<destination>{7b31990f-a6a0-4302-ad30-d0115b4fcca7}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{22f9dbe2-1f12-4ee6-938e-e38d04228b2e}" />
-	<object class="AutomationPoint" id="{3fe5877b-dc1e-4fc5-830e-46039e956217}">
+	<object class="AutomationPoint" id="{858e1be2-89f2-46e8-8e7f-96e806c434f0}">
 		<property name="position">
-			<value>0</value>
+			<value>3.5500000000000003</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -333,37 +239,18 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 			<value>0.25471893</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{33983de8-27fe-4e6c-afac-58572d14fec1}">
+	<object class="AutomationPoint" id="{242e335b-464c-49b6-b98c-bdcf24ec662a}">
 		<property name="position">
-			<value>1</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{87ccc54c-aead-48bc-b46b-94b35b4f4298}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.2547189</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{5b6fb57a-741a-4b53-ac1e-c9a58de991e5}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{8c7a48d4-d83a-4042-800e-ee027c847d10}" />
-	<object class="AutomationPoint" id="{f5454c4b-8e7a-4515-977a-a270423bcf23}">
+	<object class="AutomationPoint" id="{2a26ffa8-1acb-4a5b-b4f0-c7cc978f3006}">
 		<property name="position">
-			<value>0</value>
+			<value>3.6000000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -372,31 +259,12 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 			<value>0.25471893</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{f95fd62b-594c-48d7-9380-40db4a4a11e9}">
+	<object class="AutomationPoint" id="{5f8d8ac1-af23-4952-8683-1ec8552d42c7}">
 		<property name="position">
-			<value>0.80000000000000004</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{fef81323-7066-4343-80ee-546263e974a2}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.2547189</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{e0c6ff16-f998-4016-8d0e-9d265655cfbe}">
-		<property name="position">
-			<value>0.80000000000000004</value>
-		</property>
-		<property name="value">
-			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{47b90445-1344-43e6-a0a5-b8c6f22482ba}" />

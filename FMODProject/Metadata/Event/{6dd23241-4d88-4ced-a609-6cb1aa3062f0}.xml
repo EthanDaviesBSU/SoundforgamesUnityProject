@@ -177,6 +177,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c9b96903-ea92-45c6-95f8-6ff646011a69}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<property name="name">
 			<value>Rock</value>
 		</property>
@@ -202,6 +205,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2963c30a-899a-41ca-a894-b4ad9d877175}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -226,6 +232,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c58fa1b6-fa44-46a4-ba69-4faf8d0172a4}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -254,6 +263,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ec478a06-3a2a-4ef2-abd1-dfe84f7d008a}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -277,6 +289,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c372c614-9a8f-4c55-87cf-4e326ee6abd8}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 4</value>
 		</property>
@@ -630,7 +645,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -639,7 +653,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -675,7 +688,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -753,7 +765,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -762,7 +773,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -798,7 +808,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -876,7 +885,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -885,7 +893,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -921,7 +928,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -999,7 +1005,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -1008,7 +1013,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -1044,7 +1048,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -1122,7 +1125,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -1131,7 +1133,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -1167,7 +1168,6 @@ Triggered: On Collision</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

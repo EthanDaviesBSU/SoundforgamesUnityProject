@@ -167,7 +167,7 @@ Triggered: When the feet of the character animation touch the floor.
 	</object>
 	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
 		<property name="volume">
-			<value>9</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -210,7 +210,7 @@ Triggered: When the feet of the character animation touch the floor.
 	</object>
 	<object class="EventMixerGroup" id="{02376779-378c-474d-a075-1e6718a56c88}">
 		<property name="volume">
-			<value>9</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -251,7 +251,7 @@ Triggered: When the feet of the character animation touch the floor.
 	</object>
 	<object class="EventMixerGroup" id="{cfeb05e6-8d98-4b65-893c-ec8c7bea56e1}">
 		<property name="volume">
-			<value>9</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>

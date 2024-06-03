@@ -134,7 +134,7 @@ Triggered: When the droid fires its laser</value>
 	</object>
 	<object class="EventMixerGroup" id="{45e230e7-c724-4cbc-a181-e6da365850d2}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -162,7 +162,7 @@ Triggered: When the droid fires its laser</value>
 	</object>
 	<object class="EventMixerGroup" id="{3ca6f00d-4137-4427-974c-731a6f4b74c4}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -301,7 +301,6 @@ Triggered: When the droid fires its laser</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -310,7 +309,6 @@ Triggered: When the droid fires its laser</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -346,7 +344,6 @@ Triggered: When the droid fires its laser</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

@@ -234,7 +234,7 @@ Triggered: On Start
 			<value>20</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-76.6666641</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{769f56dd-833b-45c5-9da3-10c78f832953}">
@@ -242,7 +242,7 @@ Triggered: On Start
 			<value>17.600000000000001</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>-6.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{41388f15-1b17-4cb6-bd98-9cf311a08fe8}">
@@ -250,7 +250,7 @@ Triggered: On Start
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>2.5</value>
 		</property>
 	</object>
 </objects>

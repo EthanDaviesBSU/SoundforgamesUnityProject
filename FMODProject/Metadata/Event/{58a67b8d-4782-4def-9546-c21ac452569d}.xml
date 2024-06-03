@@ -145,7 +145,7 @@ Triggered: When the Goldworm takes a certain number of laser hits</value>
 	</object>
 	<object class="EventMixerGroup" id="{4bd2fc3f-e7ff-4260-afce-064cf6bbc90d}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -170,7 +170,7 @@ Triggered: When the Goldworm takes a certain number of laser hits</value>
 	</object>
 	<object class="EventMixerGroup" id="{c6b9300e-d24e-4aab-a9f3-5f3460002e46}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>

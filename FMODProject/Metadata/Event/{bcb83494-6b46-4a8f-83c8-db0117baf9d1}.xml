@@ -141,7 +141,7 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 	</object>
 	<object class="EventMixerGroup" id="{95c9a805-f05d-4730-90fd-b621232a3e44}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -172,7 +172,7 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 	</object>
 	<object class="EventMixerGroup" id="{51d381c5-9cc9-4aa3-b4bd-b5b5019215f9}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-12</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -365,7 +365,6 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -374,7 +373,6 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -410,7 +408,6 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

@@ -149,6 +149,9 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d14e2f36-a7ee-4ae5-88a3-6a2a007b187d}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -171,6 +174,9 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1502752b-8d7c-4980-aaf4-c69862aa6ef9}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -193,6 +199,9 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fcdfce15-9f17-4f40-9898-2327d32f2d3a}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>

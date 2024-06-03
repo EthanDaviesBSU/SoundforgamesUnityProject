@@ -135,7 +135,7 @@ Triggered: When the Goldworm surfaces</value>
 	</object>
 	<object class="EventMixerGroup" id="{22224c94-4661-4581-9c5d-cd800b4479ac}">
 		<property name="volume">
-			<value>7</value>
+			<value>9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -294,7 +294,6 @@ Triggered: When the Goldworm surfaces</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -303,7 +302,6 @@ Triggered: When the Goldworm surfaces</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -339,7 +337,6 @@ Triggered: When the Goldworm surfaces</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

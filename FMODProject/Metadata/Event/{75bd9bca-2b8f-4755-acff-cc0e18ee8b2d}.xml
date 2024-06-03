@@ -146,6 +146,9 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{89be0700-a025-4b51-97de-6608ef1b473e}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

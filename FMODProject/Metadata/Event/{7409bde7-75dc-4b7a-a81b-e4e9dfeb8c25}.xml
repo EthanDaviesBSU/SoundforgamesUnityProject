@@ -136,7 +136,7 @@ Triggered: When the Goldworm goes underground
 	</object>
 	<object class="EventMixerGroup" id="{29c8b990-98cf-47d1-8e77-fefdea3b3f68}">
 		<property name="volume">
-			<value>7</value>
+			<value>9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -295,7 +295,6 @@ Triggered: When the Goldworm goes underground
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -304,7 +303,6 @@ Triggered: When the Goldworm goes underground
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -340,7 +338,6 @@ Triggered: When the Goldworm goes underground
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

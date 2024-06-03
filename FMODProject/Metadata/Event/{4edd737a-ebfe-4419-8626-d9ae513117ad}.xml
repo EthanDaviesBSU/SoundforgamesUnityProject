@@ -154,6 +154,9 @@ Triggered: When switching tool</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e1ec628b-5854-4734-a9c8-cafced72b5e6}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
