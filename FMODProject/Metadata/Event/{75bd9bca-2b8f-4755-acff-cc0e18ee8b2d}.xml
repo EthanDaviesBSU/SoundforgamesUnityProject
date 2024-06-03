@@ -206,6 +206,7 @@ Triggered: On Start</value>
 		<relationship name="automationPoints">
 			<destination>{d49d90f7-ed7f-469d-8dae-5d207fc4f003}</destination>
 			<destination>{51366db1-8772-4f78-b9d5-9c180844b869}</destination>
+			<destination>{931a6f9f-49f6-496e-82c9-d4bf36b075e9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{92d1c312-9243-4c47-806a-b691e2301c7a}" />
@@ -237,13 +238,24 @@ Triggered: On Start</value>
 		<property name="value">
 			<value>-80</value>
 		</property>
+		<property name="curveShape">
+			<value>0.244913518</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{51366db1-8772-4f78-b9d5-9c180844b869}">
 		<property name="position">
-			<value>6</value>
+			<value>74</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{931a6f9f-49f6-496e-82c9-d4bf36b075e9}">
+		<property name="position">
+			<value>73.999979166666662</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="Plugin" id="{904109ce-f4ce-4a72-a741-343772880697}">
@@ -338,7 +350,6 @@ Triggered: On Start</value>
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -347,7 +358,6 @@ Triggered: On Start</value>
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -383,7 +393,6 @@ Triggered: On Start</value>
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
