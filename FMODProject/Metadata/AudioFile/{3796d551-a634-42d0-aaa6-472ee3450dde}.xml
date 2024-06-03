@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3796d551-a634-42d0-aaa6-472ee3450dde}">
+		<property name="note">
+			<value>Name
+Creatures, Monster, Vocal, Scream, Screech, Roar
+
+Library
+Soundly Pro/ Creatures/ Monster</value>
+		</property>
 		<property name="assetPath">
 			<value>GoldWormDie.wav</value>
 		</property>

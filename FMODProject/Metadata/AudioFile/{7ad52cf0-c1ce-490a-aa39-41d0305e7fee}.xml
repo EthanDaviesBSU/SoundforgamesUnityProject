@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7ad52cf0-c1ce-490a-aa39-41d0305e7fee}">
+		<property name="note">
+			<value>Custom</value>
+		</property>
 		<property name="assetPath">
 			<value>Rock Footsteps-018.wav</value>
 		</property>

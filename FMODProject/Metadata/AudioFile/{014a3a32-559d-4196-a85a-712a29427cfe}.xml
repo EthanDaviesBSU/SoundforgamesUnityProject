@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{014a3a32-559d-4196-a85a-712a29427cfe}">
+		<property name="note">
+			<value>Name
+Animals, Dog Wild, Coyote, Howling, Night, Grass Blowing In Wind, Prairie Oklahoma, USA
+
+Library
+Soundly Pro/ Animals/ Dog Wild</value>
+		</property>
 		<property name="assetPath">
 			<value>Wild Dogs-002.wav</value>
 		</property>

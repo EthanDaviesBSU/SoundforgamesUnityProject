@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9699ee1a-c3b7-44c8-85b7-be276cd05820}">
+		<property name="note">
+			<value>Name
+Birds, Bird Of Prey, Eurasian Eagle Owl Calling, Light Wind, Mixed Forest, A</value>
+		</property>
 		<property name="assetPath">
 			<value>Owl-001.wav</value>
 		</property>

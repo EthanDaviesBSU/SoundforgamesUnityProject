@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{81a32495-9408-46c3-be22-a63f0d357a0e}">
+		<property name="note">
+			<value>Name
+Animals, Insect, Cricket, Close, Desert 01
+
+Library
+Soundly Pro/ Animals/ Insects</value>
+		</property>
 		<property name="assetPath">
 			<value>Bugs-003.wav</value>
 		</property>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{f0b88557-3356-4c6a-9755-02f5038b4302}">
+		<property name="note">
+			<value>Name
+Fire, Burning, Wood, Soft Intensity
+
+Library
+Soundly Pro/ Fire/ Burning</value>
+		</property>
 		<property name="assetPath">
 			<value>OnFire-001.wav</value>
 		</property>

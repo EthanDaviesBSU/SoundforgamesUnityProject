@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5e4594b4-c377-43cd-bb9a-b5ec1c1e13cc}">
+		<property name="note">
+			<value>Name
+Animals, Insects, Fly Slight Increasing Insect Wings
+
+Library</value>
+		</property>
 		<property name="assetPath">
 			<value>Insects.wav</value>
 		</property>

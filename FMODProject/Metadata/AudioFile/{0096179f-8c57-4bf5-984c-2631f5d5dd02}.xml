@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0096179f-8c57-4bf5-984c-2631f5d5dd02}">
+		<property name="note" />
 		<property name="assetPath">
 			<value>GoldWormPop.wav</value>
 		</property>
