@@ -223,23 +223,12 @@ Triggered: On Start
 			<destination>{f8537c89-f90e-4f7d-b703-4f2ce53d19c3}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{f97f40a8-106e-4275-a5ea-26e3fd7aa689}</destination>
 			<destination>{634de070-49f0-4558-ad2d-a487e2b09051}</destination>
 			<destination>{769f56dd-833b-45c5-9da3-10c78f832953}</destination>
+			<destination>{41388f15-1b17-4cb6-bd98-9cf311a08fe8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c3f57998-c803-4c91-8ccf-1822f1785076}" />
-	<object class="AutomationPoint" id="{f97f40a8-106e-4275-a5ea-26e3fd7aa689}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>10</value>
-		</property>
-		<property name="curveShape">
-			<value>0.0837304071</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{634de070-49f0-4558-ad2d-a487e2b09051}">
 		<property name="position">
 			<value>20</value>
@@ -250,10 +239,18 @@ Triggered: On Start
 	</object>
 	<object class="AutomationPoint" id="{769f56dd-833b-45c5-9da3-10c78f832953}">
 		<property name="position">
-			<value>15.4</value>
+			<value>17.600000000000001</value>
 		</property>
 		<property name="value">
-			<value>-17</value>
+			<value>-7</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{41388f15-1b17-4cb6-bd98-9cf311a08fe8}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>2</value>
 		</property>
 	</object>
 </objects>
